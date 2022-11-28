@@ -3,12 +3,12 @@ using UnityEngine;
 
 namespace Commands
 {
-    public class OnLevelDestroyerCommand : ICommand
+    public class OnLevelDestroyerCommands : ICommand
     {
         private Transform _levelHolder;
 
 
-        public OnLevelDestroyerCommand(Transform levelHolder)
+        public OnLevelDestroyerCommands(Transform levelHolder)
         {
             _levelHolder = levelHolder;
         }

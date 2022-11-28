@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace Commands
 {
-    public class OnLevelLoaderCommand : ICommand
+    public class OnLevelLoaderCommands : ICommand
     {
         private Transform _levelHolder;
 
-        public OnLevelLoaderCommand(Transform levelHolder)
+        public OnLevelLoaderCommands(Transform levelHolder)
         {
             _levelHolder = levelHolder;
         }
