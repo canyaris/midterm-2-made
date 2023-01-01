@@ -1,13 +1,13 @@
 using Interfaces;
 using UnityEngine;
 
-namespace Commands
+namespace Commands.Level
 {
-    public class OnLevelLoaderCommands : ICommand
+    public class OnLevelLoaderCommand : ICommand
     {
-        private Transform _levelHolder;
+        private readonly Transform _levelHolder;
 
-        public OnLevelLoaderCommands(Transform levelHolder)
+        public OnLevelLoaderCommand(Transform levelHolder)
         {
             _levelHolder = levelHolder;
         }
