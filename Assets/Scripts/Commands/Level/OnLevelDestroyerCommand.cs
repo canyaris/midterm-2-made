@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Commands.Level
 {
-    public class OnLevelDestroyerCommand : ICommand
+    public class OnLevelDestroyerCommand 
     {
         private readonly Transform _levelHolder;
 
