@@ -1,6 +1,6 @@
 namespace Interfaces
 {
-    public interface ICommander
+    public interface ICommand
     {
         public void Execute();
         public void Execute(int value);
